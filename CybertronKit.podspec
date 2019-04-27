@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/sunwell/CybertronKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sunwell' => 'waynesun@vipabc.com' }
+  s.author           = { 'wayne' => 'waynesun1990@gmail.com' }
   s.source           = { :git => 'https://github.com/sunwell/CybertronKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -1,0 +1,16 @@
+PODS:
+  - CybertronKit (0.1.0)
+
+DEPENDENCIES:
+  - CybertronKit (from `../`)
+
+EXTERNAL SOURCES:
+  CybertronKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CybertronKit: 54ec7a1341f36a8b788bb3ef78141b165150a04f
+
+PODFILE CHECKSUM: eba6d47ad60f9934381db59cf8d111c3dded78c6
+
+COCOAPODS: 1.6.1
