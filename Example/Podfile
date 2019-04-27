@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CybertronKit_Example' do
+  pod 'CybertronKit', :path => '../'
+
+  target 'CybertronKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
