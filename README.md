@@ -22,7 +22,7 @@ pod 'CybertronKit'
 
 ## Author
 
-sunwell, waynesun@vipabc.com
+wayne, waynesun1990@gmail.com
 
 ## License
 
