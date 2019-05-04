@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIButton+CTKExtension.h"
 
 FOUNDATION_EXPORT double CybertronKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CybertronKitVersionString[];
