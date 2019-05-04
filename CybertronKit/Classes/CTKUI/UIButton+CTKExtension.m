@@ -54,8 +54,8 @@ static NSString * const CTK_Button_TitleInsetsKey = @"CTK_Button_TitleInsetsKey"
     UIEdgeInsets imageInsets = UIEdgeInsetsZero;
     UIEdgeInsets titleInsets = UIEdgeInsetsZero;
     if (style == CTKButtonStyleImageLeft) {
-        imageInsets = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>);
-        titleInsets = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>);
+        imageInsets = UIEdgeInsetsMake(0, -internal/2, 0, internal/2);
+        titleInsets = UIEdgeInsetsMake(0, internal/2, 0, -internal/2);
     } else if (style == CTKButtonStyleImageRight) {
         
     } else if (style == CTKButtonStyleImageTop) {

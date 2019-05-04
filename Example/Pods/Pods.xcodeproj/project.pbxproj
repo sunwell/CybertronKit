@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0BCC0252C8CA15C1CFA5686EF20A110B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		1624BEA90695DCFB0D128B4ADB67A3B9 /* UIButton+CTKExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8844FEDA6FB5071CF9AAF55657F357B6 /* UIButton+CTKExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BF64030D0F37FB857A7282C812A066B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6C187C2761FB8742DF87D9BD9A7822A8 /* CybertronKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0981531221B9924AEE5537389E6A23D /* CybertronKit-dummy.m */; };
-		79F29B2729498C26D3AF189A0A643106 /* Pods-CybertronKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F12CC9F2776931708CE019D0FFB5D1CB /* Pods-CybertronKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A05DABB93ED84C0ECE0970AA4BB8F34 /* CybertronKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2C22197AE7CD0BAE56F485656EE4D9 /* CybertronKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		904C986C000DEC8D41CF4E2563E0BDD8 /* Pods-CybertronKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B667AC25A2B370EE1A995F3B0C2932 /* Pods-CybertronKit_Example-dummy.m */; };
-		AA35CF7049C782EE0C593EE738035D07 /* Pods-CybertronKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDF759964E64EB2FC3FE6CC05267F59 /* Pods-CybertronKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D383918CB68E6D86D9C9CE10901E66B8 /* UIButton+CTKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C56A71E937F2CAB98DB21577C86DE /* UIButton+CTKExtension.m */; };
+		6C187C2761FB8742DF87D9BD9A7822A8 /* CybertronKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A4009529D4E4D8147A01F8E5ADA6CA /* CybertronKit-dummy.m */; };
+		79F29B2729498C26D3AF189A0A643106 /* Pods-CybertronKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E0CD4D40B6FE3A0308C3BF3C2DB4E6 /* Pods-CybertronKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A05DABB93ED84C0ECE0970AA4BB8F34 /* CybertronKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECB807859009B27C8315B12F2CE1B7B /* CybertronKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC5E9A1514C8F36EDD7E473B8240760 /* UIButton+CTKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF162CE28FDB37029715ECD71D884AA /* UIButton+CTKExtension.m */; };
+		85625C9C2783BE1E877A668EC68BC065 /* UIButton+CTKExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9FBC1C5179BDA984FE42FE9B36DC75 /* UIButton+CTKExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904C986C000DEC8D41CF4E2563E0BDD8 /* Pods-CybertronKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECBD6E491B7E74BEE8DD2CF80BFBF4 /* Pods-CybertronKit_Example-dummy.m */; };
+		AA35CF7049C782EE0C593EE738035D07 /* Pods-CybertronKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CF1CF257CBF3AC5070D25AD96C38F1 /* Pods-CybertronKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8C9772A375EC0CD90C19A4C81A69354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F9C0ADD457D1A8D135160F898416BF1E /* Pods-CybertronKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EFA2C3C3569F460FF9608D92A928DA /* Pods-CybertronKit_Tests-dummy.m */; };
+		F9C0ADD457D1A8D135160F898416BF1E /* Pods-CybertronKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF55BE6D0BC66EF8708F6D78BF2212 /* Pods-CybertronKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,39 +38,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041F36B0369D3A868A76F675D6BFEC2A /* CybertronKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CybertronKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		05A5E136298FB77AF5D0F9CCCAFCF44F /* CybertronKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CybertronKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F8EF6370445E53797D60A881F9C33B8 /* Pods_CybertronKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CybertronKit_Example.framework; path = "Pods-CybertronKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1842FE45B4A46239012B8D238140D6D7 /* Pods-CybertronKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CybertronKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1E5C56A71E937F2CAB98DB21577C86DE /* UIButton+CTKExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CTKExtension.m"; path = "CybertronKit/Classes/UI/UIButton+CTKExtension.m"; sourceTree = "<group>"; };
-		264F9823D59E37891FA8888B2C52E578 /* Pods-CybertronKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2892E509D013D13940A834101C8E64F9 /* Pods-CybertronKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CybertronKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		31EFA2C3C3569F460FF9608D92A928DA /* Pods-CybertronKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CybertronKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		32C4B23A9371AAD95574B7683C4F09A3 /* Pods-CybertronKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		33BF96E52B2A09E4F37BA31817768BB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3A3696FE764BCB30A0ABE1F595256BC0 /* Pods-CybertronKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Example-Info.plist"; sourceTree = "<group>"; };
-		3DDF759964E64EB2FC3FE6CC05267F59 /* Pods-CybertronKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CybertronKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4173D8C364FA67AA6CDF9714DD589A9A /* CybertronKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CybertronKit.modulemap; sourceTree = "<group>"; };
-		4330BD0D9A5CE76784C121FA93A498F3 /* CybertronKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CybertronKit-prefix.pch"; sourceTree = "<group>"; };
+		17DD08E15FE8DA2C88DB50A2FDBBD0F3 /* Pods-CybertronKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CybertronKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2271F88C96111087D2F581504E862E1C /* Pods-CybertronKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CybertronKit_Example.modulemap"; sourceTree = "<group>"; };
+		232B5EF2475AB2430B636B8F2E6C30B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		265FF8266E50A9AE5855C737188707F1 /* CybertronKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CybertronKit.modulemap; sourceTree = "<group>"; };
+		29D46F7B8320697D8DFA2FBB3EA4F739 /* CybertronKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CybertronKit-prefix.pch"; sourceTree = "<group>"; };
+		355153E06D44D2B4F15D79B06996DBC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3978401E483667D5D8873BA287E81BFF /* CybertronKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CybertronKit-Info.plist"; sourceTree = "<group>"; };
+		3CECBD6E491B7E74BEE8DD2CF80BFBF4 /* Pods-CybertronKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CybertronKit_Example-dummy.m"; sourceTree = "<group>"; };
+		4CFF55BE6D0BC66EF8708F6D78BF2212 /* Pods-CybertronKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CybertronKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		4F23AFA249321B4ED40D813FDDDEB172 /* Pods_CybertronKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CybertronKit_Tests.framework; path = "Pods-CybertronKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A10788D46E7FFFA8380984538D423BC /* Pods-CybertronKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C2C22197AE7CD0BAE56F485656EE4D9 /* CybertronKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CybertronKit-umbrella.h"; sourceTree = "<group>"; };
+		57146401C3A4BD4ACB9A898C3F19BFB1 /* CybertronKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CybertronKit.xcconfig; sourceTree = "<group>"; };
 		74A02DFCD037CE015AABDA51AB17184B /* CybertronKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CybertronKit.framework; path = CybertronKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79B667AC25A2B370EE1A995F3B0C2932 /* Pods-CybertronKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CybertronKit_Example-dummy.m"; sourceTree = "<group>"; };
-		8165EBE0D4EC0E17599D278AD99E6E67 /* Pods-CybertronKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		8844FEDA6FB5071CF9AAF55657F357B6 /* UIButton+CTKExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CTKExtension.h"; path = "CybertronKit/Classes/UI/UIButton+CTKExtension.h"; sourceTree = "<group>"; };
-		8FBC40747B0664256BAC185F0C5DC155 /* Pods-CybertronKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9AF3E9B77CEE95DA92699999DC03F286 /* CybertronKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CybertronKit-Info.plist"; sourceTree = "<group>"; };
+		7ECB807859009B27C8315B12F2CE1B7B /* CybertronKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CybertronKit-umbrella.h"; sourceTree = "<group>"; };
+		82CF1CF257CBF3AC5070D25AD96C38F1 /* Pods-CybertronKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CybertronKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		84B942089C794099764A0303C4F9EB10 /* Pods-CybertronKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		92A4009529D4E4D8147A01F8E5ADA6CA /* CybertronKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CybertronKit-dummy.m"; sourceTree = "<group>"; };
+		972E8967D9A122AC0D6957B4C545FC94 /* Pods-CybertronKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		97E0CD4D40B6FE3A0308C3BF3C2DB4E6 /* Pods-CybertronKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CybertronKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B2581053F76BF02EC2E96DEC33795C84 /* Pods-CybertronKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9527332485A5F5F0934E4234D346E36 /* Pods-CybertronKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B53A2C76BE1B59BEB29436528F9AE986 /* Pods-CybertronKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6AA8B141A271B2ED5A4D87AA93455A8 /* Pods-CybertronKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CybertronKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCB636F3AE2AC18236C5E7A4F5B809AD /* Pods-CybertronKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Example-Info.plist"; sourceTree = "<group>"; };
+		C3AFB7045BD1B1940FEB3ACB6286D7AE /* Pods-CybertronKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA9FBC1C5179BDA984FE42FE9B36DC75 /* UIButton+CTKExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CTKExtension.h"; path = "CybertronKit/Classes/CTKUI/UIButton+CTKExtension.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1DC88FE5BF8CF0BF954979E5EEF45FF /* Pods-CybertronKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CybertronKit_Tests.modulemap"; sourceTree = "<group>"; };
-		E2B89D630DA9F406887E9D5D3A430CF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E648E1FB94BE58795678D2D15E63D968 /* Pods-CybertronKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CybertronKit_Example.modulemap"; sourceTree = "<group>"; };
-		F0981531221B9924AEE5537389E6A23D /* CybertronKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CybertronKit-dummy.m"; sourceTree = "<group>"; };
-		F12CC9F2776931708CE019D0FFB5D1CB /* Pods-CybertronKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CybertronKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		F3AF0F7EDAC7754308DA5E45D56F10A3 /* CybertronKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CybertronKit.xcconfig; sourceTree = "<group>"; };
-		FE0C025467ACAD36264E26E1113BF1FA /* Pods-CybertronKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CybertronKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D60E7A5C757FB9A4A99171ECCC79F306 /* Pods-CybertronKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D964A751C9F5F4C21253EDC96306122E /* Pods-CybertronKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CybertronKit_Tests.modulemap"; sourceTree = "<group>"; };
+		FA3264866043EE2D59088384081531D6 /* Pods-CybertronKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CybertronKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FAF162CE28FDB37029715ECD71D884AA /* UIButton+CTKExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CTKExtension.m"; path = "CybertronKit/Classes/CTKUI/UIButton+CTKExtension.m"; sourceTree = "<group>"; };
+		FFA577AB496DAC905DE5B6E71A63AFB4 /* Pods-CybertronKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CybertronKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,46 +100,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C6A123F66D6F550ED0EB827B3BD82FD /* Pod */ = {
+		0E7D8774BFA1EA07B34AEF4A98FCBAE5 /* Pods-CybertronKit_Example */ = {
 			isa = PBXGroup;
 			children = (
-				041F36B0369D3A868A76F675D6BFEC2A /* CybertronKit.podspec */,
-				E2B89D630DA9F406887E9D5D3A430CF5 /* LICENSE */,
-				33BF96E52B2A09E4F37BA31817768BB7 /* README.md */,
+				2271F88C96111087D2F581504E862E1C /* Pods-CybertronKit_Example.modulemap */,
+				B6AA8B141A271B2ED5A4D87AA93455A8 /* Pods-CybertronKit_Example-acknowledgements.markdown */,
+				FFA577AB496DAC905DE5B6E71A63AFB4 /* Pods-CybertronKit_Example-acknowledgements.plist */,
+				3CECBD6E491B7E74BEE8DD2CF80BFBF4 /* Pods-CybertronKit_Example-dummy.m */,
+				BCB636F3AE2AC18236C5E7A4F5B809AD /* Pods-CybertronKit_Example-Info.plist */,
+				97E0CD4D40B6FE3A0308C3BF3C2DB4E6 /* Pods-CybertronKit_Example-umbrella.h */,
+				D60E7A5C757FB9A4A99171ECCC79F306 /* Pods-CybertronKit_Example.debug.xcconfig */,
+				FA3264866043EE2D59088384081531D6 /* Pods-CybertronKit_Example.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-CybertronKit_Example";
+			path = "Target Support Files/Pods-CybertronKit_Example";
 			sourceTree = "<group>";
 		};
-		6E01FB1673685AA6ECBE8C2C13488611 /* Support Files */ = {
+		136ED1AF9E103895BBB3E19C442BB593 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4173D8C364FA67AA6CDF9714DD589A9A /* CybertronKit.modulemap */,
-				F3AF0F7EDAC7754308DA5E45D56F10A3 /* CybertronKit.xcconfig */,
-				F0981531221B9924AEE5537389E6A23D /* CybertronKit-dummy.m */,
-				9AF3E9B77CEE95DA92699999DC03F286 /* CybertronKit-Info.plist */,
-				4330BD0D9A5CE76784C121FA93A498F3 /* CybertronKit-prefix.pch */,
-				5C2C22197AE7CD0BAE56F485656EE4D9 /* CybertronKit-umbrella.h */,
+				0E7D8774BFA1EA07B34AEF4A98FCBAE5 /* Pods-CybertronKit_Example */,
+				500EBDE0139EBE6964A83BA9C6DA9654 /* Pods-CybertronKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46A1ABECC16DF6DD2094090052577679 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				265FF8266E50A9AE5855C737188707F1 /* CybertronKit.modulemap */,
+				57146401C3A4BD4ACB9A898C3F19BFB1 /* CybertronKit.xcconfig */,
+				92A4009529D4E4D8147A01F8E5ADA6CA /* CybertronKit-dummy.m */,
+				3978401E483667D5D8873BA287E81BFF /* CybertronKit-Info.plist */,
+				29D46F7B8320697D8DFA2FBB3EA4F739 /* CybertronKit-prefix.pch */,
+				7ECB807859009B27C8315B12F2CE1B7B /* CybertronKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CybertronKit";
 			sourceTree = "<group>";
 		};
-		7E86BAF8077F6004156E1ADD43B399EA /* CybertronKit */ = {
+		500EBDE0139EBE6964A83BA9C6DA9654 /* Pods-CybertronKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8844FEDA6FB5071CF9AAF55657F357B6 /* UIButton+CTKExtension.h */,
-				1E5C56A71E937F2CAB98DB21577C86DE /* UIButton+CTKExtension.m */,
-				4C6A123F66D6F550ED0EB827B3BD82FD /* Pod */,
-				6E01FB1673685AA6ECBE8C2C13488611 /* Support Files */,
+				D964A751C9F5F4C21253EDC96306122E /* Pods-CybertronKit_Tests.modulemap */,
+				17DD08E15FE8DA2C88DB50A2FDBBD0F3 /* Pods-CybertronKit_Tests-acknowledgements.markdown */,
+				C3AFB7045BD1B1940FEB3ACB6286D7AE /* Pods-CybertronKit_Tests-acknowledgements.plist */,
+				4CFF55BE6D0BC66EF8708F6D78BF2212 /* Pods-CybertronKit_Tests-dummy.m */,
+				972E8967D9A122AC0D6957B4C545FC94 /* Pods-CybertronKit_Tests-Info.plist */,
+				82CF1CF257CBF3AC5070D25AD96C38F1 /* Pods-CybertronKit_Tests-umbrella.h */,
+				84B942089C794099764A0303C4F9EB10 /* Pods-CybertronKit_Tests.debug.xcconfig */,
+				B53A2C76BE1B59BEB29436528F9AE986 /* Pods-CybertronKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-CybertronKit_Tests";
+			path = "Target Support Files/Pods-CybertronKit_Tests";
+			sourceTree = "<group>";
+		};
+		562EB62B60E3DC80190B14E8994C3A45 /* CybertronKit */ = {
+			isa = PBXGroup;
+			children = (
+				CA9FBC1C5179BDA984FE42FE9B36DC75 /* UIButton+CTKExtension.h */,
+				FAF162CE28FDB37029715ECD71D884AA /* UIButton+CTKExtension.m */,
+				8572655437977E2F1F8EAFCD0234998C /* Pod */,
+				46A1ABECC16DF6DD2094090052577679 /* Support Files */,
 			);
 			name = CybertronKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		8572655437977E2F1F8EAFCD0234998C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				05A5E136298FB77AF5D0F9CCCAFCF44F /* CybertronKit.podspec */,
+				355153E06D44D2B4F15D79B06996DBC0 /* LICENSE */,
+				232B5EF2475AB2430B636B8F2E6C30B3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		8E762D83E90492AF905F1145C0203D83 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E86BAF8077F6004156E1ADD43B399EA /* CybertronKit */,
+				562EB62B60E3DC80190B14E8994C3A45 /* CybertronKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -153,15 +193,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CBF1900B9A83FEDB6B76C2950DABE6D3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E27D09CBB95D769CC8414548435EE707 /* Pods-CybertronKit_Example */,
-				E325822A167EBDEB602375ADA3F0E003 /* Pods-CybertronKit_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -169,7 +200,7 @@
 				8E762D83E90492AF905F1145C0203D83 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E344263C8EAEC31CE3DF9FC7C8B460A3 /* Products */,
-				CBF1900B9A83FEDB6B76C2950DABE6D3 /* Targets Support Files */,
+				136ED1AF9E103895BBB3E19C442BB593 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,39 +210,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E27D09CBB95D769CC8414548435EE707 /* Pods-CybertronKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E648E1FB94BE58795678D2D15E63D968 /* Pods-CybertronKit_Example.modulemap */,
-				2892E509D013D13940A834101C8E64F9 /* Pods-CybertronKit_Example-acknowledgements.markdown */,
-				264F9823D59E37891FA8888B2C52E578 /* Pods-CybertronKit_Example-acknowledgements.plist */,
-				79B667AC25A2B370EE1A995F3B0C2932 /* Pods-CybertronKit_Example-dummy.m */,
-				1842FE45B4A46239012B8D238140D6D7 /* Pods-CybertronKit_Example-frameworks.sh */,
-				3A3696FE764BCB30A0ABE1F595256BC0 /* Pods-CybertronKit_Example-Info.plist */,
-				F12CC9F2776931708CE019D0FFB5D1CB /* Pods-CybertronKit_Example-umbrella.h */,
-				32C4B23A9371AAD95574B7683C4F09A3 /* Pods-CybertronKit_Example.debug.xcconfig */,
-				8FBC40747B0664256BAC185F0C5DC155 /* Pods-CybertronKit_Example.release.xcconfig */,
-			);
-			name = "Pods-CybertronKit_Example";
-			path = "Target Support Files/Pods-CybertronKit_Example";
-			sourceTree = "<group>";
-		};
-		E325822A167EBDEB602375ADA3F0E003 /* Pods-CybertronKit_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E1DC88FE5BF8CF0BF954979E5EEF45FF /* Pods-CybertronKit_Tests.modulemap */,
-				FE0C025467ACAD36264E26E1113BF1FA /* Pods-CybertronKit_Tests-acknowledgements.markdown */,
-				B9527332485A5F5F0934E4234D346E36 /* Pods-CybertronKit_Tests-acknowledgements.plist */,
-				31EFA2C3C3569F460FF9608D92A928DA /* Pods-CybertronKit_Tests-dummy.m */,
-				8165EBE0D4EC0E17599D278AD99E6E67 /* Pods-CybertronKit_Tests-Info.plist */,
-				3DDF759964E64EB2FC3FE6CC05267F59 /* Pods-CybertronKit_Tests-umbrella.h */,
-				5A10788D46E7FFFA8380984538D423BC /* Pods-CybertronKit_Tests.debug.xcconfig */,
-				B2581053F76BF02EC2E96DEC33795C84 /* Pods-CybertronKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-CybertronKit_Tests";
-			path = "Target Support Files/Pods-CybertronKit_Tests";
 			sourceTree = "<group>";
 		};
 		E344263C8EAEC31CE3DF9FC7C8B460A3 /* Products */ = {
@@ -248,7 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A05DABB93ED84C0ECE0970AA4BB8F34 /* CybertronKit-umbrella.h in Headers */,
-				1624BEA90695DCFB0D128B4ADB67A3B9 /* UIButton+CTKExtension.h in Headers */,
+				85625C9C2783BE1E877A668EC68BC065 /* UIButton+CTKExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C187C2761FB8742DF87D9BD9A7822A8 /* CybertronKit-dummy.m in Sources */,
-				D383918CB68E6D86D9C9CE10901E66B8 /* UIButton+CTKExtension.m in Sources */,
+				7CC5E9A1514C8F36EDD7E473B8240760 /* UIButton+CTKExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,39 +465,9 @@
 			};
 			name = Release;
 		};
-		29689F3FD7C879A3E56009B6497AD1B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3AF0F7EDAC7754308DA5E45D56F10A3 /* CybertronKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CybertronKit/CybertronKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CybertronKit/CybertronKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CybertronKit/CybertronKit.modulemap";
-				PRODUCT_MODULE_NAME = CybertronKit;
-				PRODUCT_NAME = CybertronKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3AF4F1730E6D4CE723FAF2A6D40DE467 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2581053F76BF02EC2E96DEC33795C84 /* Pods-CybertronKit_Tests.release.xcconfig */;
+			baseConfigurationReference = B53A2C76BE1B59BEB29436528F9AE986 /* Pods-CybertronKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -595,40 +563,9 @@
 			};
 			name = Debug;
 		};
-		6215CC97EC18E44B027522D7D91D42C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3AF0F7EDAC7754308DA5E45D56F10A3 /* CybertronKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CybertronKit/CybertronKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CybertronKit/CybertronKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CybertronKit/CybertronKit.modulemap";
-				PRODUCT_MODULE_NAME = CybertronKit;
-				PRODUCT_NAME = CybertronKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A3E3429D5D30507AE10A68ED037C57D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBC40747B0664256BAC185F0C5DC155 /* Pods-CybertronKit_Example.release.xcconfig */;
+			baseConfigurationReference = FA3264866043EE2D59088384081531D6 /* Pods-CybertronKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -662,7 +599,7 @@
 		};
 		D2CD8E19F690BFBF0D31078A15332AF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32C4B23A9371AAD95574B7683C4F09A3 /* Pods-CybertronKit_Example.debug.xcconfig */;
+			baseConfigurationReference = D60E7A5C757FB9A4A99171ECCC79F306 /* Pods-CybertronKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -693,9 +630,72 @@
 			};
 			name = Debug;
 		};
+		DA06CF8656864304DD1F8D2C8CA4B0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57146401C3A4BD4ACB9A898C3F19BFB1 /* CybertronKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CybertronKit/CybertronKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CybertronKit/CybertronKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CybertronKit/CybertronKit.modulemap";
+				PRODUCT_MODULE_NAME = CybertronKit;
+				PRODUCT_NAME = CybertronKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E877FBE5F7BAA99317F3C0A5B059929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57146401C3A4BD4ACB9A898C3F19BFB1 /* CybertronKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CybertronKit/CybertronKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CybertronKit/CybertronKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CybertronKit/CybertronKit.modulemap";
+				PRODUCT_MODULE_NAME = CybertronKit;
+				PRODUCT_NAME = CybertronKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		FB9E67E31CD14E0E259E715A8C5F4CBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A10788D46E7FFFA8380984538D423BC /* Pods-CybertronKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 84B942089C794099764A0303C4F9EB10 /* Pods-CybertronKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -750,8 +750,8 @@
 		9B3DAC4F47A54C85F1D46E45A82189F3 /* Build configuration list for PBXNativeTarget "CybertronKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29689F3FD7C879A3E56009B6497AD1B6 /* Debug */,
-				6215CC97EC18E44B027522D7D91D42C8 /* Release */,
+				E877FBE5F7BAA99317F3C0A5B059929C /* Debug */,
+				DA06CF8656864304DD1F8D2C8CA4B0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

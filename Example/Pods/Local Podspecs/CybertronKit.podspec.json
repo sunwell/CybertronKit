@@ -15,8 +15,12 @@
     "git": "https://github.com/sunwell/CybertronKit.git",
     "tag": "0.1.0"
   },
+  "static_framework": true,
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CybertronKit/Classes/**/*"
+  "source_files": "CybertronKit/Classes/**/*",
+  "resource_bundles": {
+  },
+  "frameworks": "UIKit"
 }

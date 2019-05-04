@@ -27,16 +27,18 @@ TODO: Add long description of the pod here.
   s.author           = { 'wayne' => 'waynesun1990@gmail.com' }
   s.source           = { :git => 'https://github.com/sunwell/CybertronKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.static_framework = true
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CybertronKit/Classes/**/*'
+  s.resource_bundles = {
+  }
   
   # s.resource_bundles = {
   #   'CybertronKit' => ['CybertronKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
