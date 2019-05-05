@@ -246,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sunwell;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6UFFF7RS28;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -474,6 +477,7 @@
 			baseConfigurationReference = E68A27BDFB4172E9B0859AD4 /* Pods-CybertronKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UFFF7RS28;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CybertronKit/CybertronKit-Prefix.pch";
 				INFOPLIST_FILE = "CybertronKit/CybertronKit-Info.plist";
@@ -489,6 +493,7 @@
 			baseConfigurationReference = ACEF07C6829F6F605A7C7856 /* Pods-CybertronKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UFFF7RS28;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CybertronKit/CybertronKit-Prefix.pch";
 				INFOPLIST_FILE = "CybertronKit/CybertronKit-Info.plist";

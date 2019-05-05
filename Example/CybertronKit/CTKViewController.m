@@ -26,14 +26,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     //测试圆角和阴影
-    [self.view addSubview:self.container];
     [self.container ctkConfigRadius:20
                         borderWidth:1
                         borderColor:[UIColor whiteColor]
                         shadowColor:[UIColor blackColor]
-                       shadowRadius:4
-                      shadowOpacity:0.5
+                       shadowRadius:20
+                      shadowOpacity:1
                      shadowPathRect:self.container.bounds];
+    [self.view addSubview:self.container];
     
     //测试按钮样式
     [self.view addSubview:self.imageLeft];
