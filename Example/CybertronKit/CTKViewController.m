@@ -8,12 +8,15 @@
 
 #import "CTKViewController.h"
 #import <CybertronKit/UIButton+CTKExtension.h>
+#import <CybertronKit/UIView+CTKExtension.h>
 
 @interface CTKViewController ()
 @property (nonatomic, strong) UIButton *imageLeft;
 @property (nonatomic, strong) UIButton *imageRight;
 @property (nonatomic, strong) UIButton *imageTop;
 @property (nonatomic, strong) UIButton *imageBottom;
+
+@property (nonatomic, strong) UIView *container;
 @end
 
 @implementation CTKViewController
@@ -22,6 +25,17 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    //测试圆角和阴影
+    [self.view addSubview:self.container];
+    [self.container ctkConfigRadius:20
+                        borderWidth:1
+                        borderColor:[UIColor whiteColor]
+                        shadowColor:[UIColor blackColor]
+                       shadowRadius:4
+                      shadowOpacity:0.5
+                     shadowPathRect:self.container.bounds];
+    
+    //测试按钮样式
     [self.view addSubview:self.imageLeft];
     [self.imageLeft ctkConfigWithImage:[UIImage imageNamed:@"test"]
                                  title:@"图片在左"
@@ -74,6 +88,14 @@
 }
 
 #pragma mark - getter
+- (UIView *)container {
+    if (!_container) {
+        _container = [[UIView alloc] initWithFrame:CGRectMake(10, 500, 200, 100)];
+        _container.backgroundColor = [UIColor orangeColor];
+    }
+    return _container;
+}
+
 - (UIButton *)imageLeft {
     if (!_imageLeft) {
         _imageLeft = [[UIButton alloc] initWithFrame:CGRectMake(10, 100, 200, 66)];
